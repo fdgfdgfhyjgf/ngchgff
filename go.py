@@ -162,7 +162,7 @@ st.title('SHAHMEER MASTERPIECE 🚀')
 st.subheader(
     'Now, You Can Generate Images, Analyze Current Crypto Prices, and Search The Web With ChatGPT')
 
-input = st.text_input("Prompt:", value="", max_chars=5000, key=None,
+input = st.text_input("Prompt:", value="", max_chars=1000, key=None,
                       type="default", help=None, autocomplete=None, on_change=None,
                       args=None, kwargs=None, placeholder="search the web for ...", disabled=False,
                       label_visibility="visible")
