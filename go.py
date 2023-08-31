@@ -6,7 +6,7 @@ import html2text
 import requests
 import json
 import streamlit as st
-openai.api_key = "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"
+openai.api_key = "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"
 openai.organization = "org-XXX"
 
 
@@ -158,7 +158,7 @@ Please keep this information in mind and generate a prompt about  """ + input}
 # SearchTheWeb("bitcoin prices")
 # print(BitcoinPriceAnalysis())
 
-st.title('SHAHMEER MASTERPIECE 🚀')
+st.title('SHAHMEER yes 🚀')
 st.subheader(
     'Now, You Can Generate Images, Analyze Current Crypto Prices, and Search The Web With ChatGPT')
 
@@ -168,7 +168,7 @@ input = st.text_input("Prompt:", value="", max_chars=1000, key=None,
                       label_visibility="visible")
 
 
-if st.button('Generate'):
+if st.button('go'):
     if 'bitcoin' in input:
         with st.spinner('Analyzing Current Bitcoin Price...'):
             result = BitcoinPriceAnalysis()
